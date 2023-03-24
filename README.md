@@ -24,7 +24,7 @@ content-type: JSON
     "username" : "newUser1",
     "firstName" : "first1",
     "lastName" : "last1",
-    "email" : "hau.ntt2015@gmail.com",
+    "email" : "newuser1@gmail.com",
     "password" : "123456789",
     "role" : "MANAGER",
     "departmentId" : 2
