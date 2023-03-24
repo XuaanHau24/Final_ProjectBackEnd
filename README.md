@@ -54,46 +54,4 @@ http://localhost:8070/api/v1/accounts?ids=2,3,4
 http://localhost:8070/api/v1/auth/login
 
 
-* Create a department
-POST/ 
-http://localhost:8070/api/v1/departments
-content-type: JSON
 
-{
-    "name" : "Sport",
-    "totalMember" : 10,
-    "type" : "Dev",
-    "accounts" : [
-        {
-            "username" : "usernamedep1",
-            "firstName" : "firstNamedep1",
-            "lastName" : "lastNamedep1",
-            "email" : "usernamedep1@gmail.com",
-            "role" : "EMPLOYEE",
-            "password" : "12345678",
-            "departmentId" : 2
-        },
-         {
-            "username" : "usernamedep2",
-            "firstName" : "firstNamedep2",
-            "lastName" : "lastNamedep2",
-            "email" : "usernamedep2@gmail.com",
-            "role" : "EMPLOYEE",
-            "password" : "12345678",
-            "departmentId" : 2
-        }
-
-* Update a department
-PUT/
-http://localhost:8070/api/v1/departments/3
-content-type: JSON
-{
-    "name" : "mana",
-    "totalMember" : "5"
-}
-
-* DELETE a department
-http://localhost:8070/api/v1/departments/9
-
-* DELETE list
-http://localhost:8070/api/v1/departments?ids=6,7,8
