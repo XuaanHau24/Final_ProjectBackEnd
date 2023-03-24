@@ -13,7 +13,7 @@ Framework: Spring boot
 
 JDK: corretto 11
 
-Language level: default 
+Language level: default Java 11
 
 Library: Maven
 
